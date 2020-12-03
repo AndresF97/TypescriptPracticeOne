@@ -1,0 +1,2 @@
+# TypescriptPracticeOne
+Just practicing typescript
