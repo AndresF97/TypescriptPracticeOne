@@ -1,15 +1,21 @@
-function sum(num1, num2, showRes, phrase) {
-    console.log(typeof num1);
-    var nums = num1 + num2;
-    if (showRes) {
-        console.log(phrase + nums);
-    }
-    else {
-        return num1 + num2;
-    }
-}
-var numberOne = 3;
-var numberTwo = 4.5;
-var returnRes = true;
-var message = "Your answer is: ";
-sum(numberOne, numberTwo, returnRes, message);
+// function sum(num1: number,num2: number, showRes: boolean,phrase: string){
+//     console.log(typeof num1)
+//     const nums = num1 + num2
+//     if(showRes){
+//         console.log(phrase+nums)
+//     }
+//     else{
+//     return num1 + num2
+//     }
+// }
+// const numberOne = 3;
+// const numberTwo = 4.5;
+// const returnRes = true;
+// const message = "Your answer is: ";
+// sum(numberOne,numberTwo,returnRes,message);
+var firstObject = {
+    name: "Joseph",
+    age: 29,
+    Strong: true
+};
+console.log("Is " + firstObject.name + " strong:" + firstObject.Strong);
